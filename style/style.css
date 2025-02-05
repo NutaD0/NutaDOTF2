@@ -75,6 +75,12 @@ body {
   gap: 40px;
 }
 
+#nameSpace {
+  background-color: #f1ece5;
+  border-radius: 5px;
+  width: 340px;
+}
+
 #myName {
   font-family: "TF2Build";
   font-size: 1.5rem;
