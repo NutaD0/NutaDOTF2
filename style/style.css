@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "TF2Build";
+  src: url("../source/TF2_fonts/TF2Build.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TF2";
+  src: url("../source/TF2_fonts/TF2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --light-color: #d8c5b0;
+  --dark-color: #383026;
+}
+
+body {
+  background-color: #7f7a74;
+}
+
+#navBar {
+  width: 100%;
+  height: 58px;
+  position: relative;
+  background-color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#pageName {
+  font-family: "TF2Build";
+  text-align: left;
+  width: 960px;
+  color: var(--light-color);
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+#contentBlock {
+  width: 960px;
+  height: 60%;
+  margin: 120px auto;
+  border-radius: 5px;
+  background-color: #d7d1cb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#infoBlock {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  height: 200px;
+  padding: 50px;
+  position: relative;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+#nameBlock {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 40px;
+}
+
+#myName {
+  font-family: "TF2Build";
+  font-size: 1.5rem;
+  color: #d7d1cb;
+  width: 320px;
+  background-color: var(--dark-color);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.descText {
+  font-family: "TF2Build";
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--dark-color);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#linksBlock {
+  display: flex;
+  gap: 0px;
+  padding: 0 50px;
+  justify-content: center;
+}
+
+.linkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  transform: scale(0.9);
+  transition: transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.linkBtn:hover {
+  transform: scale(1);
+}
+
+#dsBtn {
+  background-color: #5865f2;
+}
+
+#tgBtn {
+  background-color: #0088cc;
+}
+
+#ttBtn {
+  background-color: #010101;
+}
+
+#ytBtn {
+  background-color: white;
+}
+
+#ytText {
+  color: black;
+}
+
+.btnText {
+  font-family: "TF2Build";
+  font-size: 1.2rem;
+  padding: 5px;
+  color: white;
+}
+
+.linkIcon {
+  width: 40px;
+  height: 40px;
+}
+
+#myCustomStuffBlock {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+#myStuffBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 10px;
+  border: none;
+  background-color: var(--dark-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#myStuffBtn:hover {
+  background-color: rgba(106, 100, 92, 1);
+  transform: scale(1.1);
+}
+
+#bigText {
+  font-family: "TF2Build";
+  font-size: 2.8rem;
+  padding: 10px;
+  color: var(--light-color);
+}
