@@ -55,6 +55,31 @@
   }
 }
 
+@media screen and (max-width: 399px) {
+  .linkBtn {
+    width: 50% !important;
+  }
+
+  .descText {
+    font-size: 1.08rem !important;
+  }
+
+  #infoBlock {
+    gap: 20px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #myCustomStuffBlock {
+    padding-top: 20px !important;
+  }
+
+  #contentBlock {
+    width: 100% !important;
+    height: 75% !important;
+    margin-bottom: 0 !important;
+    margin-top: 60px !important;
+  }
+}
 :root {
   --light-color: #d8c5b0;
   --dark-color: #383026;
