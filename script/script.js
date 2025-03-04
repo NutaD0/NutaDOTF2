@@ -25,4 +25,3 @@ myStuffButton.addEventListener("click", () => {
     "https://drive.google.com/file/d/1D1n_XuWM0qceECNP4yJ7BqxoUfs2deO1/view?usp=sharing"
   );
 });
-
