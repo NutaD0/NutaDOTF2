@@ -25,3 +25,24 @@ myStuffButton.addEventListener("click", () => {
     "https://drive.google.com/file/d/1D1n_XuWM0qceECNP4yJ7BqxoUfs2deO1/view?usp=sharing"
   );
 });
+
+useHead({   
+  script: [
+      {
+          async:true, 
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-WTH45PLZMZ',
+      },
+      {
+          innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js',new Date());
+          gtag('config', 'G-WTH45PLZMZ');
+          `,
+          type: 'text/javascript',
+      },
+  ],
+  __dangerouslyDisableSanitizersByTagID: {
+      gtag: ['innerHTML'],
+  },
+});
